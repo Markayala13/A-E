@@ -370,6 +370,8 @@ window.addEventListener('scroll', () => {
 // Image Lazy Loading Enhancement
 // ===========================
 
+// Disabled to prevent carousel images from disappearing
+/*
 const images = document.querySelectorAll('img[src]');
 
 const imageObserver = new IntersectionObserver((entries) => {
@@ -395,6 +397,7 @@ images.forEach(img => {
         imageObserver.observe(img);
     }
 });
+*/
 
 // ===========================
 // Add hover effects styles dynamically
