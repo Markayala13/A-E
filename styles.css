@@ -362,7 +362,7 @@ img {
     text-align: center;
     color: var(--white);
     max-width: 900px;
-    padding: 5rem 2rem 3rem 2rem;
+    padding: 8rem 2rem 3rem 2rem;
 }
 
 .hero-title {
@@ -371,6 +371,7 @@ img {
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 1.5rem;
+    margin-top: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     background: linear-gradient(135deg, var(--white) 0%, var(--silver) 50%, var(--gold) 100%);
