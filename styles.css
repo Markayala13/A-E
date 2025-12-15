@@ -17,8 +17,8 @@
     --gray-light: #c8ccd1;
     --silver: #d4d8dd;
     --white: #ffffff;
-    --gold: #d4a574;
-    --gold-dark: #b8935f;
+    --gold: #FF0000;
+    --gold-dark: #CC0000;
 
     /* Gradientes */
     --gradient-primary: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-medium) 100%);
@@ -212,7 +212,7 @@ img {
 }
 
 .logo img {
-    height: 50px;
+    height: 155px;
     transition: all var(--transition-fast);
 }
 
@@ -263,7 +263,7 @@ img {
     gap: 0.5rem;
     padding: 0.7rem 1.5rem;
     background: var(--gradient-gold);
-    color: var(--navy-dark);
+    color: var(--white);
     text-decoration: none;
     font-family: var(--font-heading);
     font-size: 1rem;
@@ -392,7 +392,7 @@ img {
     display: inline-block;
     padding: 1.2rem 3rem;
     background: var(--gradient-gold);
-    color: var(--navy-dark);
+    color: var(--white);
     text-decoration: none;
     font-family: var(--font-heading);
     font-size: 1.1rem;
@@ -950,7 +950,7 @@ img {
 }
 
 .footer-logo img {
-    height: 70px;
+    height: 215px;
 }
 
 .footer-map {
@@ -1154,7 +1154,7 @@ img {
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 3.8rem;
         line-height: 1.2;
     }
 
@@ -1237,6 +1237,12 @@ img {
         text-align: center;
     }
 
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .footer-map iframe {
         width: 100%;
         max-width: 300px;
@@ -1249,7 +1255,7 @@ img {
     }
 
     .hero-title {
-        font-size: 1.8rem;
+        font-size: 3.8rem;
         line-height: 1.2;
     }
 
