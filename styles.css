@@ -362,14 +362,14 @@ img {
     text-align: center;
     color: var(--white);
     max-width: 900px;
-    padding: 3rem 2rem;
+    padding: 5rem 2rem 3rem 2rem;
 }
 
 .hero-title {
     font-family: var(--font-heading);
     font-size: clamp(2.5rem, 6vw, 5rem);
     font-weight: 700;
-    line-height: 1.4;
+    line-height: 1.1;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1201,7 +1201,7 @@ img {
 
     .hero-title {
         font-size: 2.8rem;
-        line-height: 1.4;
+        line-height: 1.1;
     }
 
     .hero-subtitle {
@@ -1302,7 +1302,7 @@ img {
 
     .hero-title {
         font-size: 2.2rem;
-        line-height: 1.4;
+        line-height: 1.1;
     }
 
     .hero-subtitle {
